@@ -79,7 +79,7 @@ export default function Form() {
           bgColor={"bg-sky-500"}
           textColor={"text-neutral-50"}
           hoverBgColor={"bg-transparent"}
-          hoverTextColor={"text-sky-500"}
+          hoverTextColor={"hover:text-sky-500"} //syntax different
           borderColor={"border-sky-500"}
         />
       </div>
