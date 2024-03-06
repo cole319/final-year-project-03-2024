@@ -15,7 +15,10 @@ export default function Card({
   };
 
   return (
-    <div className="w-[18rem] bg-gradient-to-br from-sky-700 via-sky-700 to-sky-600 p-4 rounded-md shadow-lg hover:translate-y-[-2px]">
+    <div
+      className="w-max lg:w-42 bg-gradient-to-br from-sky-700 via-sky-700 to-sky-600 
+    p-4 rounded-md shadow-lg hover:translate-y-[-2px]"
+    >
       <div className="border-2 border-sky-200 rounded-lg">
         <Image
           src={imageLink}
@@ -36,9 +39,9 @@ export default function Card({
             customWidth={"w-full"}
             onClick={onClick}
             bgColor={"bg-slate-50"}
-            textColor={"text-slate-800"}
+            textColor={"text-sky-700"}
             hoverBgColor={"bg-transparent"}
-            hoverTextColor={"text-neutral-50"}
+            hoverTextColor={"hover:text-neutral-50"} //syntax different
             borderColor={"border-slate-50"}
           />
         </Link>

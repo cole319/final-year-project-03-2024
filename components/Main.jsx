@@ -5,8 +5,8 @@ import CardDemo from "@/public/demoCard.jpg";
 
 export default function Main() {
   return (
-    <div className="px-60 py-20 ">
-      <div className="flex justify-center space-x-16">
+    <div className="p-10 lg:px-40 xl:px-60 lg:py-20 ">
+      <div className="flex flex-col md:flex-row justify-center space-x-0 space-y-10 md:space-y-0 md:space-x-4 lg:space-x-16">
         <Card
           cardContents={
             "This is a brief description of the functionality of this card"
@@ -29,7 +29,7 @@ export default function Main() {
           cardContents={
             "This is a brief description of the functionality of this card"
           }
-          cardTitle={"Candidates and Voters List"}
+          cardTitle={"Candidates List"}
           buttonContent={"Go to portal"}
           buttonLink={"/lists"}
           imageLink={CardDemo}

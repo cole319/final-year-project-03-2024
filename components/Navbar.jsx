@@ -60,7 +60,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="bg-sky-950 px-40 py-3 flex justify-between items-center ">
+      <div className="bg-sky-950 px-10 lg:px-40 py-3 flex justify-between items-center ">
         {/* <div className="bg-gradient-to-r from-slate-900  to-transparent px-40 py-3 flex justify-between items-center fixed w-full"> */}
         <div className="font-bold text-2xl">LOGO</div>
         <div>

@@ -9,10 +9,10 @@ import { BsFillEnvelopeFill } from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <footer className=" bg-sky-950 py-8 px-60 text-neutral-200">
+    <footer className=" bg-sky-950 py-8 px-8 lg:px-60 text-neutral-200">
       {/* <hr className="w-full h-[1px] mx-auto mt-8 bg-gradient-to-r from-slate-700 to-sky-600 border-0"></hr> */}
 
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col md:flex-row text-center md:text-left space-y-4 md:space-y-0 space-x-0 md:justify-between">
         <div>
           <h1 className="text-neutral-50 text-lg font-semibold">
             © 2024 Suryarghya Saha{" "}
@@ -21,7 +21,7 @@ export default function Footer() {
           </h1>
           <h1 className="text-neutral-300">All rights reserved</h1>
         </div>
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 justify-center">
           <Link
             className="cursor-pointer hover:underline flex items-center space-x-2 text-center"
             href="/"

@@ -1,14 +1,14 @@
 import Input from "./Input";
 import Button from "./Button";
-import DataList from "./DataList";
+import VoterDataList from "./VoterDataList";
 
-export default function Form() {
+export default function CandidateRegistrationForm() {
   const handleSubmit = () => {};
 
   return (
     <div className="flex flex-col items-center">
       <h1 className="pb-10 font-semibold text-4xl text-neutral-600">
-        Candidate Registration
+        Voter Registration
       </h1>
       <div className="space-y-6 flex flex-col items-center w-3/5">
         <div className="flex w-full space-x-4">
@@ -43,25 +43,25 @@ export default function Form() {
           placeholder="Discipline"
         />
 
-        <div className="flex w-full space-x-4">
-          {/*Dropdown choose from numbers 1 to 5*/}
-          <input
-            type="text"
-            name="year"
-            className="border-2 border-neutral-800 w-1/2 py-2 px-4 placeholder-slate-800"
-            placeholder="Year"
-          />
+        {/* <div className="flex w-full space-x-4"> */}
+        {/*Dropdown choose from numbers 1 to 5*/}
+        {/* <input
+          type="text"
+          name="year"
+          className="border-2 border-neutral-800 w-full py-2 px-4 placeholder-slate-800"
+          placeholder="Year"
+        /> */}
 
-          <input
+        {/* <input
             type="text"
             list="cgpa"
             name="cgpa"
             className="border-2 border-neutral-800 w-1/2 py-2 px-4 placeholder-slate-800"
             placeholder="CGPA"
-          />
+          /> */}
 
-          {/*Dropdown choose from numbers 1 to 10*/}
-        </div>
+        {/*Dropdown choose from numbers 1 to 10*/}
+        {/* </div> */}
 
         <input
           type="email"
@@ -70,7 +70,7 @@ export default function Form() {
           placeholder="Institute Email"
         />
 
-        <DataList className="border-2 border-neutral-800 py-2 px-4 placeholder-slate-800" />
+        <VoterDataList className="border-2 border-neutral-800 py-2 px-4 placeholder-slate-800" />
 
         <Button
           buttonContent={"Register"}
