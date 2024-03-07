@@ -23,28 +23,72 @@ export default function CandidateDataList() {
       </SelectTrigger>
       <SelectContent>
         <SelectItem value="A">
-          {/* <div className="flex flex-col space-y-2">
+          {" "}
+          <div className="flex space-x-2 p-1">
             <h1 className="font-semibold text-neutral-800">1st Year</h1>
-            <Select>
-              <SelectContent>
-                <SelectItem value="a">section A</SelectItem>
-                <SelectItem value="a">section A</SelectItem>
-                <SelectItem value="a">section A</SelectItem>
-              </SelectContent>
-            </Select>
-          </div> */}
-          <FreshersDataList />
+            <p className="text-neutral-600">Section A</p>
+          </div>
         </SelectItem>
         <SelectItem value="B">
           {" "}
           <div className="flex space-x-2 p-1">
-            <h1 className="font-semibold text-neutral-800">Group B</h1>
-            <p className="text-neutral-600 ">
-              (2nd Year B.Tech./BE/Dual Degree/Integrated M.Tech)
-            </p>
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section B</p>
           </div>
         </SelectItem>
         <SelectItem value="C">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section C</p>
+          </div>
+        </SelectItem>
+        <SelectItem value="D">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section D</p>
+          </div>
+        </SelectItem>
+        <SelectItem value="E">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section E</p>
+          </div>
+        </SelectItem>
+        <SelectItem value="F">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section F</p>
+          </div>
+        </SelectItem>
+        <SelectItem value="G">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section G</p>
+          </div>
+        </SelectItem>
+        <SelectItem value="H">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">1st Year</h1>
+            <p className="text-neutral-600">Section H</p>
+          </div>
+        </SelectItem>
+
+        <SelectItem value="I">
+          {" "}
+          <div className="flex space-x-2 p-1">
+            <h1 className="font-semibold text-neutral-800">2nd Year</h1>
+            <p className="text-neutral-600">
+              (1st Year B.Tech./BE/Dual Degree/Integrated M.Tech)
+            </p>
+          </div>
+        </SelectItem>
+        <SelectItem value="J">
           {" "}
           <div className="flex space-x-2 p-1">
             <h1 className="font-semibold text-neutral-800">Group C</h1>
@@ -53,7 +97,7 @@ export default function CandidateDataList() {
             </p>
           </div>
         </SelectItem>
-        <SelectItem value="D">
+        <SelectItem value="K">
           {" "}
           <div className="flex space-x-2 p-1">
             <h1 className="font-semibold text-neutral-800">Group D</h1>
@@ -62,7 +106,7 @@ export default function CandidateDataList() {
             </p>
           </div>
         </SelectItem>
-        <SelectItem value="E">
+        <SelectItem value="L">
           {" "}
           <div className="flex space-x-2 p-1">
             <h1 className="font-semibold text-neutral-800">Group E</h1>
@@ -72,7 +116,7 @@ export default function CandidateDataList() {
             </p>
           </div>
         </SelectItem>
-        <SelectItem value="F">
+        <SelectItem value="M">
           {" "}
           <div className="flex space-x-2 p-1">
             <h1 className="font-semibold text-neutral-800">Group F</h1>

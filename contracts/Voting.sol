@@ -3,14 +3,14 @@
 pragma solidity ^0.8.0;
 
 // For counting using safeMath module
-import "@openzeppelin/contracts/utils/Counters.sol";
+// import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol";
 
 contract Create {
-    using Counters for Counters.Counter;
+    // using Counters for Counters.Counter;
 
-    Counters.Counter public _voterId;
-    Counters.Counter public _candidateId;
+    uint256 public _voterId;
+    uint256 public _candidateId;
 
     address public admin;
 
@@ -80,9 +80,9 @@ contract Create {
         ) public {
         require(admin == msg.sender, "Only admin can authorize candidate");
 
-        _candidateId.increment();
+        _candidateId++;
 
-        uint256 idNumber = _candidateId.current();
+        uint256 idNumber = _candidateId;
 
         Candidate storage candidate = candidates[_address];
 

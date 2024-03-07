@@ -71,6 +71,7 @@ export default function CandidateRegistrationForm() {
         />
 
         <VoterDataList className="border-2 border-neutral-800 py-2 px-4 placeholder-slate-800" />
+        {}
 
         <Button
           buttonContent={"Register"}
